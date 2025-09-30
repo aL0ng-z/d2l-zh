@@ -12,7 +12,7 @@ plt.plot(time, x)
 plt.show()
 # print(time)
 
-# 制作数据集
+# 制作时间序列回归预测数据集
 tau = 4
 def create_dataset(x, tau):
     n = x.shape[0] - tau
